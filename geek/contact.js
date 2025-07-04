@@ -32,7 +32,7 @@ const car = [
 let cars = car
  .map((item) => `
         <div class="flex py-1">
-            <p class="border-2 rounded-full border-stone-300 bg-stone-300 w-10 px-4 py-3 pr-8">${item.icon}</p>
+            <p class="border-2 rounded-full border-stone-200 bg-stone-200 w-10 px-4 py-3 pr-8">${item.icon}</p>
             
             <div class="block pl-1">
             <h2 class="text-lg font-bold">${item.title}</h2>
