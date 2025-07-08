@@ -1,0 +1,32 @@
+nav{
+    background-color: black;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    background-color: white;
+    box-shadow:0  2px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    color: black;
+    z-index: 1;
+}
+
+.list ul{
+    display: block;
+}
+
+.name{
+    position: relative;
+    display: inline-block;
+}
+
+.name:hover .list{
+    display: block;
+}
